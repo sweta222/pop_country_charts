@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script type="module" src="src/script.js"></script>
+</head>
+<body>
+<div>
+<nav>
+	<div class="logo">
+	  <a href="#">
+		<span style="color: white;">ABC</span> 
+		<span style="color: white;display:inherit">CO</span>
+	  </a>
+	</div>
+  </nav>
+</div>
+<div>
+  <nav2>
+		<select id="dropdown">
+		  </select>
+  </nav2>
+</div>
+<div class="table-container">
+	<div class="left-partition">
+		<h2 id="heading"></h2>
+		<span>
+			<strong id="pop-data" style="font-size: larger;"></strong>
+		</span>
+	</div>
+	<div class="right-partition">
+		<div id="line-chart"></div>
+	</div>
+</div>
+<div class="scatterchart-container">
+<div id="scatter-chart"></div>
+<h5 id="secondheading">Population Growth VS Density Correlation</h5>
+</div>
+</div>
+</body>
+</html>
